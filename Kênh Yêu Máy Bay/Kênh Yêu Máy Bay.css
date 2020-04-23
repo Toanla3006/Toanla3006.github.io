@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* CSS Document */
+#Header{
+	background-color: black;
+	width:100%;
+	height: 100px;
+}
+#WebsiteName{
+	color:white;
+	padding-left: 20px;
+	padding-top:20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+	font-size: 25px;
+}
+#Slogan{
+	color:white;
+	padding-left: 20px;
+	font-style: italic;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+/*---------------------------------------MENU--------------------------------------------*/
+
+#Menu{
+	margin-top: 10px;
+	padding: 0;
+}
+#Menu ul{
+	list-style-type: none;
+	background: black;
+	text-align: left;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#Menu ul li{
+	width: 170px;
+	height: 40px;
+	display: inline-table;
+	line-height:40px;
+	position: relative;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#Menu ul li a{
+	text-decoration: none;
+	color: #FDFDFD;
+	display: block;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#Menu ul li a:hover{
+	background:  #FFFFFF;
+	color: #000000;
+}
+#Menu ul li>.submenu{
+	text-align: center;
+	display: none;
+	position:absolute;
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#Menu ul li:hover .submenu{
+	display: block;
+	z-index: 2;
+}
+
+
+/*---------------------------------------MENU--------------------------------------------*/
+
+/*--------------------------------------SIDEBAR-------------------------------------------*/
+#Sidebar{
+	width:296px;
+	height: 1410px;
+	background-color: white;
+	position: absolute;
+	top:170;
+	left:865px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
+#AircraftGallary{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0 0 20px;
+	width: 276px;
+	height: 860px;
+	background: #C8C8C8;
+}
+.Hot1{
+	position:absolute;
+	left: 10px;
+	width:260px;
+	border: 4px #000000;
+	border-style:groove;
+}
+
+#Advertising{
+	position: absolute;
+	top: 880px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 276px;
+	height: auto;
+	max-height: 345px;
+	background-color: #C8C8C8;
+}
+/*--------------------------------------SIDEBAR-------------------------------------------*/
+
+/*--------------------------------------Content-------------------------------------------*/
+#Content{
+	width: 840px;
+	height:1220px;
+	margin-left: -15px;
+}
+#C1{
+	font-size: 17px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+	color:Red;
+}
+#C2{
+	font-size: 15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+
+#CoverMarquee{
+	border: 2px solid black;
+	background-color:#B9B8B8;
+}
+
+#PC1{
+	margin-top: 5px;
+	width:150px;
+	border: 2px solid black;
+}
+
+#SUMMARYCHANNEL{
+	position: absolute;
+	top: 44px;
+	left: 170px;
+	width:660px;
+	height: 254px;
+	text-align: justify;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+#SUMMARYCHANNEL a{
+	color: black;
+	text-decoration: none;
+}
+#SUMMARYCHANNEL a:hover{
+	color: red;
+	text-decoration: none;
+}
+#CD1{
+	position: absolute;
+	top:200px;
+	margin-left: -15px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+	color:white;
+	width:840px;
+	background-color: black;
+	height:30px;
+	line-height: 27px;
+}
+
+.VIDEOAREATM9{
+	position: absolute;
+	width: 260px; 
+	height: 190px; 
+	border: 4px solid #C8C8C8;
+	font-size: 14px;
+}
+
+#V1{
+	top:35px;
+	left: 0px;
+}
+#V2{
+	top:35px;
+	left: 290px;
+}
+#V3{
+	top:35px;
+	left: 580px;
+}
+
+#CD2{
+	position: absolute;
+	top:550px;
+	width:840px;
+	font-size: 20px;
+	margin-left: -15px;
+	font-weight: bold;
+	color:white;
+	padding-left: 10px;
+	background-color: black;
+	height:30px;
+	line-height: 27px;
+}
+#V1DL{
+	top:35px;
+	left: 0px;
+}
+#V2DL{
+	top:35px;
+	left: 290px;
+}
+#V3DL{
+	top:35px;
+	left: 580px;
+}
+
+#V1VL{
+	top:35px;
+	left: 0px;
+}
+#V2VL{
+	top:35px;
+	left: 290px;
+}
+#V3VL{
+	top:35px;
+	left: 580px;
+}
+
+#CD3{
+	position: absolute;
+	top:900px;
+	font-size: 20px;
+	margin-left: -15px;
+	font-weight: bold;
+	padding-left: 10px;
+	color:white;
+	width:840px;
+	background-color: black;
+	height:30px;
+	line-height: 27px;
+}
+
+.classVinfo{
+	background-color: #C8C8C8;
+	width:260px;
+	height:100px;
+	position: absolute;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+	padding: 10px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:black;
+}
+
+#VInfo1{
+	top:225px;
+	left: 0px;
+}
+#VInfo2{
+	top:225px;
+	left: 290px;
+	
+}
+#VInfo3{
+	top:225px;
+	left: 580px;
+}
+#VInfo4{
+	top:225px;
+	left: 906px;
+}
+#VInfo5{
+	top:225px;
+	left: 0px;
+}
+#VInfo6{
+	top:225px;
+	left: 290px;
+}
+#VInfo7{
+	top:225px;
+	left: 580px;
+}
+#VInfo9{
+	top:225px;
+	left: 0px;
+}
+#VInfo10{
+	top:225px;
+	left: 290px;
+}
+#VInfo11{
+	top:225px;
+	left: 580px;
+}
+/*--------------------------------------CONTENT-------------------------------------------*/
+
+/*--------------------------------------Content-------------------------------------------*/
+
+/*--------------------------------------FOOTER-------------------------------------------*/
+#Footer{
+	position: absolute;
+	top:1400px;	
+	width: 1140px;
+	height: 200px;
+	background-color: black;
+}
+
+#Contact{
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	width: 300px;
+	height:100px;
+	border: 1px solid grey;
+	padding: 10px 0 10px 10px;
+	color: white;
+	opacity: 80%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#Contact:hover{
+	opacity: 100%;
+	border: 2px solid white;
+	cursor: default;	
+}
+
+#Copyright{
+	position: absolute;
+	top:170px;
+	left: 30px;
+	color:white;
+	font-weight: bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+#Copyright a{
+	color: white;
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+#WidgetMenu{
+	position: absolute;
+	top: 10px;
+	left: -28px;
+}
+#WidgetMenu ul li{
+	display: inline-block;
+	width:180px;
+	height:30px;
+	marginl-left: 10px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 17px;
+}
+
+#WidgetMenu ul li:hover{
+	background-color: red;;
+}
+
+#WidgetMenu ul li a{
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#SocialMedia1{
+	position: absolute;
+	top:60px;
+	left:360px;
+	width:350px;
+	height: 140px;
+}
+#NAHK{
+	color:white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+.SocialMediaProperties{
+	color: white;
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.SocialMediaProperties:hover{
+	color: white;
+	text-decoration: none;
+}
+#Fanpage{
+	color:white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bold;
+}
+#SocialMedia2{
+	position: absolute;
+	top:60px;
+	left:773px;
+	width:320px;
+	height: 140px;
+}
+/*--------------------------------------FOOTER-------------------------------------------*/
+
