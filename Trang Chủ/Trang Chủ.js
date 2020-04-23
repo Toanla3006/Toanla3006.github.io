@@ -136,7 +136,7 @@ function XULITHONGTINHINHANH(){
 	$('#HotPicture4').attr("src",HotPic4_address);
 	$('#HotPicture5').attr("src",HotPic5_address);
 	$('#HotPicture6').attr("src",HotPic6_address);
-	$('#Advertise img').attr("src",Advertise);
+	$('#Ad_Pic').attr("src",Advertise);
 }
 
 var STT = 1;
