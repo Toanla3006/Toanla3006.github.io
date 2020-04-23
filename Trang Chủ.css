@@ -540,7 +540,7 @@
 		font-size: 10px;
 	}
 	body{
-		position: fixed;
+		position: inherit;
 		max-height: 667px;
 	}
 	#Menu{
