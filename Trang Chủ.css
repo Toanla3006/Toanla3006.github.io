@@ -201,7 +201,7 @@
 	border: 2px solid black;
 	border-radius: 10px;
 }
-#Advertise img{
+#Ad_Pic{
 	width:246px;
 	border: 2px solid black;
 	padding-left: -1px;
@@ -526,3 +526,314 @@
 }
 
 /*--------------------------------------FOOTER-------------------------------------------*/
+
+@media only screen and (max-width: 375px)
+{
+	#Header{
+		height: 50px;
+	}
+	#WebsiteName{
+		padding-top: 5px;
+		font-size: 15px;
+	}
+	#Slogan{
+		font-size: 10px;
+	}
+	body{
+		position: fixed;
+	}
+	#Menu{
+		top:45px;
+		width:100%;
+	}
+	#Menu ul{
+		height: 15px;
+	}
+	#Menu ul li {
+		top:-8px;
+		right: 20px;
+		font-size: 5px;
+		width:50px;
+		height: 2px;
+		line-height: 10px;
+	}
+	#ImageArea{
+		top:75px;
+		width: 300px;
+	}
+	#WaitingImage{
+		width:70px;
+		height:170px;
+		top:75px;
+		left:305px;
+	}
+	#SelectedPicture{
+		display: none;
+	}
+	.WaitingPic{
+		width:50px;
+	}
+	#Pic1{
+		top: 8px;
+		left: 10px;
+	}
+	#Pic2{
+		top: 38px;
+		left: 10px;
+	}
+	#Pic3{
+		top: 68px;
+		left: 10px;
+	}
+	#Pic4{
+		top: 98px;
+		left: 10px;
+	}
+	#Pic5{
+		top: 128px;
+		left: 10px;
+	}
+	#PrevBtn{
+		width:15px;
+		height: 15px;
+		line-height: 8px;
+		padding-left:-5px;
+		top: 150px;
+		left: 5px;
+	}
+	#NextBtn{
+		width:15px;
+		height: 15px;
+		line-height: 8px;
+		padding-left:-5px;
+		top: 150px;
+		left: 280px;
+	}
+	#Footer{
+		width: 100%;
+		height: 150px;
+		top:520px;
+	}
+	#SideBar{
+		top:240px;
+		width:50px;
+	}
+	.sidebarbtn{
+		font-size: 5px;
+		line-height: 15px;
+		width:70px;
+		height:15px;
+		border: 1px solid black;
+	}
+	#Advertise{
+		width:70px;
+	}
+	#Ad_Pic{
+		width: 70px;
+		border:1px solid black;
+	}	
+	#Content{
+		width:100%;
+		left: 0px;
+		position: absolute;
+		top:0px;
+	}
+	#MainContent{
+		left:80px;
+		top:250px;
+		height: 260px;
+		width:295px;
+		border-radius: 5px 0px 0px 5px;
+	}
+	.AnhBaiViet{
+		width: 275px;
+		height: 150px;
+	}
+	#AirNewContent{
+		width: 275px;
+		height: 240px;
+	}
+	#InfoBaiViet1{
+		width:275px;
+		height: 90px;
+	}
+	#TieuDe1{
+		font-size: 9px;
+	}
+	#NoiDung1{
+		font-size: 7px;
+	}
+	#TravelNewContent{
+		width: 275px;
+		height: 240px;
+	}
+	#InfoBaiViet2{
+		width:275px;
+		height: 90px;
+	}
+	#TieuDe2{
+		font-size: 9px;
+	}
+	#NoiDung2{
+		font-size: 7px;
+	}
+	#NewPictureContent{
+		width:275px;
+		height: 240px;
+	}
+	.HotPicContent{
+		width:70px;
+		border: 1.5px solid black;
+	}
+	.PictureInfo{
+		width: 70px;
+		height: 40px;
+		font-size: 6px;
+	}
+	#HotPicture1{
+	top:10px;
+	left:20px;
+	}
+	#HotPicture2{
+	top: 10px;
+	left:105px;
+	}
+	#HotPicture3{	
+	top: 10px;
+	left:190px;
+	}
+	#HotPicture4{
+	top: 110px;
+	left:20px;
+	}
+	#HotPicture5{
+	top: 110px;
+	left:105px;
+	}
+	#HotPicture6{
+	top: 110px;
+	left:190px;
+	}
+	#PictureInfo1{
+	top:50px;
+	left:20px;
+	}
+	#PictureInfo2{
+	top:50px;
+	left:105px;
+	}
+	#PictureInfo3{
+	top:50px;
+	left:190px;
+	}
+	#PictureInfo4{
+	top:150px;
+	left:20px;
+	}
+	#PictureInfo5{
+	top:150px;
+	left:105px;
+	}
+	#PictureInfo6{
+	top:150px;
+	left:190px;
+	}
+	.BtnAnh{
+		width:15px;
+		height: 15px;
+		font-size: 10px;
+		line-height: 10px;
+		border-radius: 5px;
+	}
+	#BaiVietCBtn4{
+		top:220px;
+		left:245px;
+	}
+	#BaiVietCBtn3{
+		top:220px;
+		left:228px;
+	}
+	#BaiVietCBtn2{
+		top:220px;
+		left:210px;
+	}
+	#BaiVietCBtn1{
+		top:220px;
+		left:192px;
+	}
+	.BaiVietBtn{
+		width:15px;
+		height:15px;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	#BaiVietABtn4{
+		top:130px;
+		left:245px;
+	}
+	#BaiVietABtn3{
+		top:130px;
+		left:228px;
+	}
+	#BaiVietABtn2{
+		top:130px;
+		left:210px;
+	}
+	#BaiVietABtn1{
+		top:130px;
+		left:192px;
+	}
+	#BaiVietBBtn4{
+		top:130px;
+		left:245px;
+	}
+	#BaiVietBBtn3{
+		top:130px;
+		left:228px;
+	}
+	#BaiVietBBtn2{
+		top:130px;
+		left:210px;
+	}
+	#BaiVietBBtn1{
+		top:130px;
+		left:192px;
+	}
+	#WidgetMenu ul li{
+		font-size: 5px;
+		width: 55px;
+		height: 10px;
+	}
+	#Contact{
+		top:52px;
+		left: 10px;
+		padding-left: 2px;
+		width:100px;
+		height: 45px;
+		font-size: 5px;
+	}
+	#SocialMedia1{
+		width:160px;
+		font-size: 5px;
+		top:49px;
+		left:120px;
+	}
+	#SocialMedia1 h5{
+		font-size: 10px;
+	}
+	#SocialMedia2{
+		width:100px;
+		font-size: 5px;
+		top:49px;
+		left:290px;
+	}
+	#SocialMedia2 h5{
+		font-size: 10px;
+	}
+	#Copyright{
+		top:120px;
+		left:10px;	
+		font-size: 10px;
+	}
+}
+
