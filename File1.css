@@ -67,7 +67,7 @@
 	width: 100%;
 	height:8rem;
 }
-@media screen and (min-width: 1456px)
+@media screen and (min-width: 1000px)
 {
 	.main:before, .main:after{
 		content: "";
