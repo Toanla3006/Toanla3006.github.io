@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Đam mê hàng không - Trang chủ</title>
+	<link type="text/css" rel="stylesheet" href="./Trang Chủ.css">
+	<link type="text/css" rel="stylesheet" href="../bootstrap.min.css">
+	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript" src="Trang Chủ.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="Header">
+				<h5 id="WebsiteName"></h5>
+				<p id="Slogan"></p>
+			</div>
+		</div>
+		<div class="row">
+		<div id="Menu">
+			<ul>
+				<li><a href ="./Trang Chủ.html">Trang Chủ</a></li>
+				<li><a href ="../Ảnh Hàng Không/Ảnh Hàng Không.html">Ảnh Hàng Không</a>
+					<ul class="submenu">
+						<li> <a href="../Ảnh Bamboo Airways/AnhBambooAirways.html"> Bamboo Airways</a></li>
+						<li> <a href="../Ảnh Jetstar/AnhJetstar.html"> Jetstar Pacific</a></li>
+						<li> <a href="../Ảnh Vietjet/AnhVietjet.html"> Vietjet Air</a></li>
+						<li> <a href="../Ảnh Vietnam Airlines/AnhVietnamAirlines.html"> Vietnam Airlines</a></li>
+						<li> <a href="../Các Hãng Nước Ngoài/AnhInternationalAirlines.html"> Hãng Nước Ngoài</a></li>
+						<li> <a href="../Ảnh Tư Nhân/AnhPrivateJet.html"> Tư Nhân </a></li>
+					</ul>
+				</li>
+				<li><a href ="../Video Hàng Không/Video Hàng Không.html">Video Hàng Không</a></li>
+				<li><a href ="../Mạng Lưới Đường Bay/Mạng Lưới Đường Bay.html">Mạng lưới Đường Bay</a>
+					<ul class="submenu">
+						<li> <a href="../Sơ Đồ Bay Bamboo/SDBBamboo.html"> Bamboo Airways</a></li>
+						<li> <a href="../Sơ Đồ Bay Jetstar/SDBJetstar.html"> Jetstar Pacific</a></li>
+						<li> <a href="../Sơ Đồ Bay Vietjet/SDBVietjet.html"> Vietjet Air</a></li>
+						<li> <a href="../Sơ đồ bay VNA/SDBVNA.html"> Vietnam Airlines</a></li>
+					</ul>
+					</li>
+				<li><a href ="../Kênh Yêu Máy Bay/Kênh Yêu Máy Bay.html">Kênh Yêu Máy Bay</a></li>
+				<li><a href ="../PlaneSpotting Area/PlaneSpottingArea.html">PlaneSpotting Area</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="row">
+		<div id = "ImageGallaryPlace" class="col-12">
+			<img id="ImageArea">
+			<div id="WaitingImage">
+				<div id="SelectedPicture"></div>
+				<img class="WaitingPic" id="Pic1">
+				<img class="WaitingPic" id="Pic2">
+				<img class="WaitingPic" id="Pic3">
+				<img class="WaitingPic" id="Pic4">
+				<img class="WaitingPic" id="Pic5">
+			</div>
+			<div id="NextBtn" class="Btn1"> &gt; </div>
+			<div id="PrevBtn" class="Btn1"> &lt; </div>
+		</div>
+		</div>
+		<div id="barrier" class="row"></div>
+		<div class="row">
+			<div id="Content" class="col-12">
+				<div id="SideBar">
+					<div class="sidebarbtn" id="AirNews"> Tin tức Hàng Không </div>
+					<div class="sidebarbtn" id="TravelNews"> Tin tức Du Lịch </div>
+					<div class="sidebarbtn" id="PictureNews"> Ảnh Hàng Không mới</div>
+					<img id="Ad_Pic">
+				</div>
+				<div id="MainContent">
+					<div id="AirNewContent">
+						<div id="BaiVietABtn1" class="BaiVietBtn">1</div>
+						<div id="BaiVietABtn2" class="BaiVietBtn">2</div>
+						<div id="BaiVietABtn3" class="BaiVietBtn">3</div>
+						<div id="BaiVietABtn4" class="BaiVietBtn">4</div>
+						<div id="BaiViet1" class="BaiViet">
+							<img id="AnhBaiViet1" class="AnhBaiViet">
+							<div id="InfoBaiViet1" class="InfoBaiViet">
+								<a id="link1"><h5 id="TieuDe1"></h5></a>
+								<p id="NoiDung1"></p>
+							</div>
+						</div>
+					</div>
+					<div id="TravelNewContent">
+						<div id="BaiVietBBtn1" class="BaiVietBtn">1</div>
+						<div id="BaiVietBBtn2" class="BaiVietBtn">2</div>
+						<div id="BaiVietBBtn3" class="BaiVietBtn">3</div>
+						<div id="BaiVietBBtn4" class="BaiVietBtn">4</div>
+						<div id="BaiViet2" class="BaiViet">
+							<img id="AnhBaiViet2" class="AnhBaiViet">
+							<div id="InfoBaiViet2" class="InfoBaiViet">
+								<a id="link2"><h5 id="TieuDe2"></h5></a>
+								<p id="NoiDung2"></p>
+							</div>
+						</div>
+					</div>
+					<div id="NewPictureContent">
+						<div id="BaiVietCBtn1" class="BaiVietBtn BtnAnh">1</div>
+						<div id="BaiVietCBtn2" class="BaiVietBtn BtnAnh">2</div>
+						<div id="BaiVietCBtn3" class="BaiVietBtn BtnAnh">3</div>
+						<div id="BaiVietCBtn4" class="BaiVietBtn BtnAnh">4</div>
+						<div id="BaiViet3" class="BaiViet">
+							<img id="HotPicture1" class="HotPicContent">
+							<img id="HotPicture2" class="HotPicContent">
+							<img id="HotPicture3" class="HotPicContent">
+							<img id="HotPicture4" class="HotPicContent">
+							<img id="HotPicture5" class="HotPicContent">
+							<img id="HotPicture6" class="HotPicContent">
+							<div id="PictureInfo1" class="PictureInfo"></div>
+							<div id="PictureInfo2" class="PictureInfo"></div>
+							<div id="PictureInfo3" class="PictureInfo"></div>
+							<div id="PictureInfo4" class="PictureInfo"></div>
+							<div id="PictureInfo5" class="PictureInfo"></div>
+							<div id="PictureInfo6" class="PictureInfo"></div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		<div class="row">
+		<div id="Footer">
+		<div id="Contact"> LIÊN HỆ: <br/> 
+		<p>Website: Đam Mê Hàng Không<br/> Email: Chapcanhgiacmobay@gmail.com</p>
+		</div>
+		<div id="Copyright"> COPYRIGHT ©2020 <a href="Trang Chủ.html">Đam Mê Hàng Không</a></div>
+		<div id="WidgetMenu"> 
+			<ul>
+				<li><a href ="./Trang Chủ.html">Trang Chủ</a></li>
+				<li><a href ="../Ảnh Hàng Không/Ảnh Hàng Không.html">Ảnh Hàng Không</a></li>
+				<li><a href ="../Video Hàng Không/Video Hàng Không.html">Video Hàng Không</a></li>
+				<li><a href ="../Mạng Lưới Đường Bay/Mạng Lưới Đường Bay.html">Mạng lưới Đường Bay</a></li>
+				<li><a href ="../Kênh Yêu Máy Bay/Kênh Yêu Máy Bay.html">Kênh Yêu Máy Bay</a></li>
+				<li><a href ="../PlaneSpotting Area/PlaneSpottingArea.html">PlaneSpotting Area</a></li>
+			</ul>
+		</div>
+		<div id="SocialMedia1"> 
+			<h5 id="NAHK"> Nhóm ảnh Hàng Không: </h5>
+			<a class="SocialMediaProperties" href="https://www.facebook.com/groups/vietnamairspotters/">Vietnam Air Spotters</a><br>
+			<a class="SocialMediaProperties" href="https://www.facebook.com/groups/242984592856960/">Sans Frontieres Aviation Photography</a><br>
+			<a class="SocialMediaProperties" href="https://www.facebook.com/groups/558852134151400/">Vietnam Aviation Photographers Community</a>
+			<a class="SocialMediaProperties" href="https://www.facebook.com/groups/VNAviationPhotographyCommunity/">Vietnam Aviation Photography Community</a>
+		</div>
+		<div id="SocialMedia2"> 
+			<h5 id="Fanpage"> Fanpage: </h5>
+			<a class="SocialMediaProperties" href="https://www.facebook.com/cafengammaybay/">Cafe ngắm máy bay</a><br>
+			<a class="SocialMediaProperties" href="https://www.facebook.com/Sans-Frontieres-Aviation-Photos-383179595623692/">Sans Frontieres Aviation Photos</a><br>
+		</div>
+		</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../bootstrap.min.js"></script>
+</body>
+</html>
